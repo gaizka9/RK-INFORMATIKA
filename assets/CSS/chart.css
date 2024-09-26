@@ -1,0 +1,38 @@
+figure, canvas {
+    background-color: rgba(255,255,255,.03);
+    padding: 10px 10px 30px;
+}
+
+.main-container {
+    width: 100%; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.container {
+    margin-top: 20px; 
+    width: 100%; 
+}
+
+.graficos {
+    display: flex;        
+    justify-content: space-around; 
+}
+
+.graficos figure {
+    width: 45%;       
+    margin: 0;      
+}
+
+
+#modelsChart {
+    width: 100%;
+    max-width: 300px; 
+    height: auto;
+}
+
+#tresdChart {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto;
+}
